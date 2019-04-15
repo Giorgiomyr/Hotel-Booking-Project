@@ -8,5 +8,14 @@ jQuery( init );
 // Our apliication logic goes here
 
 function init( $ ){
-    console.log( "Ready" );
+    let options = {
+        url:"../data.json",
+        success: jasonHandler
+    }
+    function jasonHandler( data ){
+        console.log( data );
+
+    }
+    $.ajax( options );
+
 }
