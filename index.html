@@ -1,21 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Trip Wagon Assignment 6</title>
 
-    <script               src="https://code.jquery.com/jquery-3.4.0.min.js"               integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="               crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- OpenLayers -->
     <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
+
+<!-- >Bootstrap jQuery, font Awesome, OpenLayers -->
+
 <body>
-    
+
+    <div class="container mt-5">
+
+        <!-- searchbar -->
+        <section class="row searchbar border bg-warning">
+            <div class="col-6 border bg-info">
+                SEARCHBAR
+
+            </div>
+        </section>
+
+        <!-- Booking -->
+        <section class="row booking border">
+            <div class="col-4 border">Check-in</div>
+            <div class="col-4 border">Check-out</div>
+            <div class="col-4 border">Room Type</div>
+        </section>
+
+
+        <!-- Features -->
+        <section class="row features border">
+            <div class="col-4 border">Price range</div>
+            <div class="col-2 border">Prop type</div>
+            <div class="col-2 border">Gues</div>
+            <div class="col-4 border">Location</div>
+        </section>
+
+        <!-- map -->
+        <section class="row map border">
+            <div class="col border">Map</div>
+            <div class="col border">Sort By</div>
+        </section>
+
+
+        <!-- Hotels -->
+        <section class="row hotels border">
+            <!-- hotel dynamic results -->
+            <div class="col-12 row hotel border m-0 p-0">
+                <div class="col-4 border">Description</div>
+                <div class="col-3 border">Photo</div>
+                <div class="col-2 border">Deals</div>
+                <div class="col-3 border">View Deals</div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+
 </body>
+
+
+
 </html>
