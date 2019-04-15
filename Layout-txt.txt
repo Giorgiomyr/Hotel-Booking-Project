@@ -1,0 +1,25 @@
+section.row.searchbar
+	.col SEARCHBAR
+
+section.row.booking
+	.col#checkin Check-in
+	.col#checkout Check-out
+	.col Room Types
+
+section.row.features
+	.col-4 Price Range
+	.col-2 Prop Type
+	.col-2 Guest
+	.col-4 Location
+
+section.row.map
+	.col
+	.col
+
+section.row.hotels
+	.col-12.row.hotel
+	.col-12.row.hotel
+		.col-3 PHOTO
+		.col-4 DESC
+		.col-2 DEALS
+		.col-3 VIEW DEALS
