@@ -46,6 +46,6 @@ function init( $ ){
     $.ajax( options );
 
 }
-
+// kkhkhkhlhkhklhkl
 // Alternative, no global vars at all:
 // jQuery(function init(){ ... });
